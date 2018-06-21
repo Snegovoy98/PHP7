@@ -1,0 +1,11 @@
+{
+    "name": "sanya/php7",
+    "type": "project",
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "App\\": "src/"
+        }
+    }
+}

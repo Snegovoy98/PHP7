@@ -1,15 +1,21 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: sanya
- * Date: 21.06.18
- * Time: 20:43
- */
+declare(strict_types=1);
 
 namespace App\Repository;
 
 
 class ProductRepository
 {
+    /**
+     * @return array
+     */
+    public function getAll (): array
+    {
+        return [];
+    }
 
+    public function count (array $filter):int
+    {
+        return 0;
+    }
 }

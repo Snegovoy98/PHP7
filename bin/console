@@ -1,0 +1,21 @@
+#!/usr/bin/env php
+<?php
+
+require __DIR__ . '/../vendor/autoload.php';
+
+$repo = new \App\Repository\ProductsRepository();
+$repo->getAll();
+//$repo->count([]);
+$res = $repo->getProductForSale(['limit' => 60]);
+\var_dump($res);
+
+$collection = $repo->getProductCollection();
+\var_dump($collection[0]);
+//$collection[1] = 'Visual Code';
+
+$someClass = new class {
+    public $firstName;
+};
+\var_dump($someClass);
+
+\var_dump(\App\Repository\ProductsRepository::DEFAULT_LIMIT);

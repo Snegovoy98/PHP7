@@ -1,12 +1,12 @@
 {
-    "name": "greeflas/itea-php7",
+    "name": "snegovoy/php7",
     "description": "",
     "type": "project",
     "license": "MIT",
     "authors": [
         {
-            "name": "greeflas",
-            "email": "vldmr.kuprienko@gmail.com"
+            "name": "snegovoy",
+            "email": "snegovoy.aleksandr@gmail.com"
         }
     ],
     "minimum-stability": "stable",
